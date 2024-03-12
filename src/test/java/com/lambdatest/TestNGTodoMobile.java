@@ -21,7 +21,7 @@ public class TestNGTodoMobile {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "/Users/pramod/Documents/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/TEST/selenium/driver/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
